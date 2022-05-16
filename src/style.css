@@ -1,3 +1,50 @@
-h1 {
+.content {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 10px #c2cad465;
+  margin-bottom: 30px;
+}
+
+.boxInfo {
   text-align: center;
+  color: aliceblue;
+  background-color: #a8d3d8;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px #cbd1d8ae;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+}
+
+/* too many space in between*/
+h3,
+h4 {
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+}
+
+/*still padding */
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  line-height: 17px;
+}
+
+small {
+  margin-left: 250px;
 }
