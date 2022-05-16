@@ -14,16 +14,62 @@
     />
   </head>
   <body>
-    <h1>19°C</h1>
+    <h1>Berlin</h1>
+    <h2>19°</h2>
+    <h3>Monday</h3>
+    <h4>14:40</h4>
+<div class="infoWeather">
 
+              <ul>
+                <li>Precipitation: <span id="precipitation"></span>%</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+                
+              </ul>
+            </div>
+</div>
     <div class="container">
+      <div class="row" id="oneRow">
+        <div class="col-2">Mon</div>
+        <div class="col-2">Tue</div>
+        <div class="col-2">Wed</div>
+        <div class="col-2">Thu</div>
+        <div class="col-2">Fri</div>
+        <div class="col-2">Sat</div>
+      </div>
       <div class="row">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
+        <div class="col-2">
+          <img src="imgs/sunIcon.png" alt="Clear" id="miniIcon" width="40%" />
+        </div>
+        <div class="col-2">
+          <img src="imgs/sunIcon.png" alt="Clear" id="miniIcon" width="40%" />
+        </div>
+        <div class="col-2">
+          <img src="imgs/sunIcon.png" alt="Clear" id="miniIcon" width="40%" />
+        </div>
+        <div class="col-2">
+          <img src="imgs/sunIcon.png" alt="Clear" id="miniIcon" width="40%" />
+        </div>
+        <div class="col-2">
+          <img src="imgs/sunIcon.png" alt="Clear" id="miniIcon" width="40%" />
+        </div>
+        <div class="col-2">
+          <img src="imgs/sunIcon.png" alt="Clear" id="miniIcon" width="40%" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">30°</div>
+        <div class="col-2">27°</div>
+        <div class="col-2">15°</div>
+        <div class="col-2">18°</div>
+        <div class="col-2">20°</div>
+        <div class="col-2">24°</div>
       </div>
     </div>
-
+<small>
+<a href="https://github.com/wecodeschool/vanilla-weather-app" target="_blank">Open-source code</a> 
+by Idalia F.
+</small>
     <script src="src/index.js"></script>
   </body>
 </html>
