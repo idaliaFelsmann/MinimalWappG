@@ -5,7 +5,7 @@
   border-radius: 25px;
   box-shadow: 8px 8px 10px #c2cad465;
   margin-bottom: 30px;
-  background-image: url(https://lh3.googleusercontent.com/HKQ1Emo4jHbmftkSY87dKTq959AB9bnyohe5Yvii0VdJT4eVl1Z3tl6UI6y_XgpwGEQiQonn4LLFI1KOwp5Eau-UEY8znUkS6l990SXKrcWswMVY7GqEMGCOotcg6Vs46QX8n7bA__h_Kd8BSz2u-ZG-PubtZt-sMJK_GnRScclj14G3PAp-Ife2JYXjEgiLU4UH-q871o6vOIQ_G-8mrGdaHv7oRa1nRpnaPm-Pc7cvcAIlZypDahO8A40CeWeuPjMJO6o4fLVcuUztTufA5Qr6JnzNQimJ-nGT3_5e8IDy_AmX8PKEqwz44ZSj8poFABUqbATBTVxIdnatJ96REvl7vu6K5cbf2KpN4jadAKJVp2_j2SKqdYk6eMDhtl462ilsWi9oo77puXPKrYHP4rjbfvsJvfmTyhZIHfcaHsIl5tak-43VVnQNLOLvn6w8Xl--pwNOl5ny8h7w5rF6XX0tYd7mbrghcurWeycsXs6u3AQyMYJY2w7CvjZv0ciXmSFzM_km5bgQ5Sf8qlterQEZovkulAs2e5Fl6d0QWZQurUAonkrrpsLHvsSX7ZyEp2DZi1xuzyI3WVBUBE-FISR0yQni8zthnSG62I8dOssXyAUccRV9-RY7wsEPzN0MXFv1bb6-aYFV29wWN3dxI29JwbL4iPPr1BIbEt3RYDAajnUSC-VvqEDCNsx54aNsMjGi4wfzVx7cH3FJXXQTXqxAFnnQn2jMZ6WpPm5HQTtIV2l89k3MIvmP2c-c=w400-h800-no?authuser=0);
+  background-image: url(https://lh3.googleusercontent.com/7VqbKpWVtoQdtkNpv9L4X18AQa14QNi6ZzLc4dXZ07IVuxviRThnI1Aud9EKMofQmaoZcJmeSf-LHjGoE0FVnNTEbCn5qq-OIoS8b6Hv0bya60Yvx8dfUT9Eee2cVUEov2mLWQfdmx2VIjBOxu3V9knBAWvC7owG6ETXakvK0G1v4T8uaq3LKBz9I5-NYB1k3RMnFk2GqxpckNFldDiCbsTdtDpbEtlkiW3t-vsSJ8IZfiLReW4ddnQ2Tm9mrz-dGh7mFAsNQGXFG740Pq2snuc8pPjV0L7CKcN_cfhAuBly_uhg9ZyQLwxRXojAwP_brI4BcOakROe8yt3M4FKJl9nCEI-8BAy0b_fX2fo9rOSsMtZKMgWLgWoHVUoU8cRRRT3F8G93Bv27pV87QqvfM531vR-zEsPz9H2hAiaUOnXoiCFYMnPmo7dvrk5bE_G5BpwxmfSMsEk3YP4xl5e9ViKvyDkOLn0GbYrgphlbdltraNgvEfaxauMF4yD2hb8UooaWW4z1keaR1hLcXv1U6hyKjvvnVR7xXXSPCLJRccdUFqf_0OKIyTZK-MCkWhJ1PQs_61D9ODandeQNLSQHjy9sc0FDEp00Wt2JFlF9U6MsjUXOufCrWu7gRdNLbHqcA5lvgfSbTGVjCEOoOzMgRl-mpixHb1NNGSEO7i302Sz6AN0UXPWrCBDBlBvUGbZcon77uHU3RDUEj5S7QxkBboWyOXyfHzGg98rz1J3niZ1DhTHgwWY4pxf8mCIF=w400-h800-no?authuser=0);
 }
 
 .boxInfo {
@@ -40,6 +40,10 @@ span {
   font-size: 25px;
 }
 
+#mainIcon {
+  margin-left: 25px;
+}
+
 .day {
   line-height: 12px;
   font-family: "Didact Gothic", sans-serif;
@@ -67,6 +71,7 @@ li {
   margin: 0;
   padding-left: 0;
   line-height: 17px;
+  text-transform: capitalize;
 }
 
 small {
