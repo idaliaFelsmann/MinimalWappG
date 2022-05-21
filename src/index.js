@@ -6,7 +6,7 @@ function displayTemperature(response) {
   let windEl = document.querySelector("#wind");
   let dateEl = document.querySelector(".day");
   let timeEl = document.querySelector(".time");
-
+  let iconEl = document.querySelector("#mainIcon");
   celsiusTemperature = response.data.main.temp;
 
   temperatureEl.innerHTML = Math.round(celsiusTemperature);
@@ -16,6 +16,12 @@ function displayTemperature(response) {
   windEl.innerHTML = Math.round(response.data.wind.speed);
   dateEl.innerHTML = formatDate(response.data.dt * 1000);
   timeEl.innerHTML = formatTime(response.data.dt * 1000);
+
+  iconEl.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconEl.setAttribute("alt", response.data.weather[0].description);
 }
 
 let apiKey = "3f40d3adb734ab9c238d75c205df7d42";
