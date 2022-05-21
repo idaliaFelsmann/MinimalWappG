@@ -134,6 +134,11 @@ li {
   text-transform: capitalize;
 }
 
+.content .active {
+  color: black;
+  text-decoration: none;
+}
+
 small {
   margin-left: 250px;
 }
