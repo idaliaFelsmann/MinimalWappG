@@ -7,7 +7,67 @@
   margin-bottom: 30px;
   background-image: url(https://lh3.googleusercontent.com/7VqbKpWVtoQdtkNpv9L4X18AQa14QNi6ZzLc4dXZ07IVuxviRThnI1Aud9EKMofQmaoZcJmeSf-LHjGoE0FVnNTEbCn5qq-OIoS8b6Hv0bya60Yvx8dfUT9Eee2cVUEov2mLWQfdmx2VIjBOxu3V9knBAWvC7owG6ETXakvK0G1v4T8uaq3LKBz9I5-NYB1k3RMnFk2GqxpckNFldDiCbsTdtDpbEtlkiW3t-vsSJ8IZfiLReW4ddnQ2Tm9mrz-dGh7mFAsNQGXFG740Pq2snuc8pPjV0L7CKcN_cfhAuBly_uhg9ZyQLwxRXojAwP_brI4BcOakROe8yt3M4FKJl9nCEI-8BAy0b_fX2fo9rOSsMtZKMgWLgWoHVUoU8cRRRT3F8G93Bv27pV87QqvfM531vR-zEsPz9H2hAiaUOnXoiCFYMnPmo7dvrk5bE_G5BpwxmfSMsEk3YP4xl5e9ViKvyDkOLn0GbYrgphlbdltraNgvEfaxauMF4yD2hb8UooaWW4z1keaR1hLcXv1U6hyKjvvnVR7xXXSPCLJRccdUFqf_0OKIyTZK-MCkWhJ1PQs_61D9ODandeQNLSQHjy9sc0FDEp00Wt2JFlF9U6MsjUXOufCrWu7gRdNLbHqcA5lvgfSbTGVjCEOoOzMgRl-mpixHb1NNGSEO7i302Sz6AN0UXPWrCBDBlBvUGbZcon77uHU3RDUEj5S7QxkBboWyOXyfHzGg98rz1J3niZ1DhTHgwWY4pxf8mCIF=w400-h800-no?authuser=0);
 }
+.form-control {
+  padding: 0;
+  margin-top: 15px;
+}
 
+.col-9 {
+  width: 65%;
+  padding: 0%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px hsla(196, 90%, 70%, 0.877);
+}
+
+input[type="text"] {
+  width: 4.5cm;
+  border-radius: 4px;
+  border-color: #535b61;
+  box-shadow: rgba(118, 119, 122, 0.459);
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #a8d3d8;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 17px;
+  text-decoration: none;
+  margin: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+}
+
+button {
+  align-items: center;
+  background: transparent;
+  border: 0 solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1a202c;
+  justify-content: center;
+  overflow-wrap: break-word;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(130, 198, 202);
+}
+.col-3 {
+  padding-left: 0;
+  width: 30%;
+}
 .boxInfo {
   text-align: center;
   color: aliceblue;
