@@ -48,3 +48,20 @@ function formatTime(timestamp) {
   }
   return `${hours}:${minutes}`;
 }
+
+function search(city) {
+  let apiKey = "3f40d3adb734ab9c238d75c205df7d42";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayTemperature);
+}
+
+function handleSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input-user");
+  search(cityInputElement.value);
+}
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
+
+search("New York");
