@@ -139,6 +139,26 @@ li {
   text-decoration: none;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  font-size: 11px;
+}
+
 small {
   margin-left: 250px;
 }
