@@ -111,6 +111,7 @@ img#mainIcon {
   line-height: 22px;
   font-family: "Didact Gothic", sans-serif;
   font-size: 25px;
+  margin-bottom: 0;
 }
 .lastUp {
   font-size: 15px;
@@ -120,7 +121,10 @@ hr {
   width: 100%;
 }
 
-/*still padding */
+span#description {
+  font-size: 25px;
+}
+
 ul {
   margin: 0;
   padding-left: 0;
